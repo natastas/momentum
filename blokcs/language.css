@@ -7,13 +7,13 @@
   }
   
   .language_ru {
-    background-image: url('../assets/img/ru.jpg');
+    background-image: url('./assets/img/ru.jpg');
     background-size: cover;
     background-position: center;
   }
   
   .language_en {
-    background-image: url('../assets/img/en.png');
+    background-image: url('./assets/img/en.png');
     background-size: cover;
     background-position: center;
   } 
