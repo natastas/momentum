@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="./css/owfont-regular.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>momentum</title>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+      <ul class="play-list">
+        
+      </ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="temperature"></div>
+      <div class="weather-description"></div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="settings">
+      <div class="popup">
+        <div class="blocks"> 
+          <p class="text_language">Язык</p>
+          <div class="languages">
+            <button class="language language_ru"></button>
+            <button class="language language_en"></button>
+          </div>
+        </div>
+        <div class="block"> 
+          <p class="text_time">Время</p>
+          <div class="btn btn_time"></div>
+        </div>
+        <div class="block"> 
+          <p class="text_date">Дата</p>
+          <div class="btn btn_date"></div>
+        </div>
+        <div class="block"> 
+          <p class="text_quotes">Цитаты</p>
+          <div class="btn btn_quote"></div>
+        </div>
+        <div class="block"> 
+          <p class="text_music">Музыка</p>
+          <div class="btn btn_music"></div>
+        </div>
+        <div class="block"> 
+          <p class="text_weather">Погода</p>
+          <div class="btn btn_weather"></div>
+        </div>
+        <div class="block"> 
+          <p class="text_greeting">Приветствие</p>
+          <div class="btn btn_greeting"></div>
+        </div>
+      </div>
+      <div class="svg"></div>
+    </div>
+    <div class="quotes">
+      <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    </div>
+    <div class="">
+      <a class="link" href="https://github.com/natastas"></a>
+    </div>
+  </footer>
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
+
