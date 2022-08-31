@@ -14,3 +14,7 @@
 @import url(./blokcs/body.css);
 @import url(./blokcs/player/player.css);
 @import url(./blokcs/player/_switch/player_switch.css);
+@import url(./blokcs/play.css);
+@import url(./blokcs/pause.css);
+@import url(./blokcs/description.css);
+@import url(./blokcs/weather.css);
