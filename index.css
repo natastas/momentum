@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Arial-MT';
+    src: url("../assets/fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
+   }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+@import url(./blokcs/owfont-regular.css);
+@import url(./blokcs/header.css);
+@import url(./blokcs/body.css);
+@import url(./blokcs/player/player.css);
+@import url(./blokcs/player/_switch/player_switch.css);
