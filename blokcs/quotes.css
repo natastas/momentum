@@ -1,0 +1,21 @@
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 1;
+    transition: 1s;
+  }
+  
+  .quote {
+    min-height: 32px;
+    
+  }
+  
+  .quotes_switch {
+    opacity: 0;
+  }
+  
+  .author {
+    min-height: 20px;
+  }

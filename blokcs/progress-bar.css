@@ -1,0 +1,68 @@
+#progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    z-index: 4;
+    height: 5px;
+    background: #9c9b9b;
+    width: 150pt;
+    bottom: 5%;
+    border-radius: 30px;
+    left: 17%;
+  }
+  
+  #progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -3px;
+    margin-left: 0px;
+    height: 12px;
+    width: 10px;
+    border: 0;
+    background: -webkit-linear-gradient(45deg,  rgb(213, 213, 213), rgb(187, 247, 7));
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  #progress-bar::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    max-height: 5px;
+    border-radius: 30px;
+  }
+  
+  #progress-bar:focus {
+    outline: none;
+  } 
+  
+  .currentTime {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      bottom: 49%;
+      left: 7%;
+      z-index: 4;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      color: white;
+      align-items: center;
+  }
+  
+  .durationTime {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      bottom: 50%;
+      right: 1%;
+      z-index: 4;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      align-items: center;
+      color: rgb(187, 247, 7);
+      opacity: 1;
+  }
+  
+  .durationTime_none {
+    opacity: 1;
+  }

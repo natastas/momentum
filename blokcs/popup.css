@@ -1,0 +1,98 @@
+.popup {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    gap: 15px;
+    border-radius: 20px;
+    background-color: rgb(141, 148, 155, 0.3);
+    background-blend-mode: multiply;
+    position: relative;
+    width: 250px;
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    bottom: 70px;
+  }
+  
+  .popup_not {
+    opacity: 1;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    gap: 20px;
+    font-size: 18px;
+    align-self: center;
+    align-items: center;
+  }
+  
+  .blocks {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 5px;
+    gap: 20px;
+    font-size: 18px;
+    align-self: center;
+    align-items: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    width: 52px; /* ширина */
+    height: 28px; /* высота */
+    border-radius: 19px; /* радиус скругления */
+    background: #bfbfbf; /* цвет фона */
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; /* анимация */
+  }
+  
+  .btn::after {
+    content: "";
+    height: 22px; /* высота кнопки */
+    width: 22px; /* ширина кнопки */
+    border-radius: 17px;
+    background: #fff; /* цвет кнопки */
+    top: 3px; /* положение кнопки по вертикали относительно основы */
+    left: 5px; /* положение кнопки по горизонтали относительно основы */
+    transition-duration: 300ms; /* анимация */
+    position: absolute;
+    z-index: 1;
+  }
+  .switch-on {
+    background: #52dd11;
+  }
+  .switch-on::after {
+    left: 25px;
+  }
+  
+  .svg {
+    background-image: url('../assets/svg/setting.svg'); 
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 100;
+    cursor: pointer;
+    transition: 2s;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  } 
+  
+  .svg_click {
+    transform: rotate(120deg);
+  }
+  
+  .settings {
+  
+    width: 140px;
+  }

@@ -22,3 +22,32 @@
 @import url(./blokcs/city.css);
 @import url(./blokcs/time.css);
 @import url(./blokcs/slider.css);
+@import url(./blokcs/date.css);
+@import url(./blokcs/greeting.css);
+@import url(./blokcs/name.css);
+@import url(./blokcs/footer.css);
+@import url(./blokcs/quotes.css);
+@import url(./blokcs/language.css);
+@import url(./blokcs/progress-bar.css);
+@import url(./blokcs/popup.css);
+
+@media (max-width: 768px) {
+    .time {
+      min-height: 80px;
+      font-size: 72px;    
+    }
+  
+    .greeting-container {
+      min-height: 40px;
+      font-size: 32px;
+    }
+  
+    .greeting {
+      padding: 5px;
+    }
+  
+    .name {
+      font-size: 32px;
+      padding: 5px;
+    }
+  }
